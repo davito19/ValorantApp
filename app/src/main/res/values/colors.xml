@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_valorant">#CC2525</color>
+    <color name="red_valorant_secundary">#D84E4E</color>
+    <color name="blue_valorant">#081255</color>
+    <color name="blue_valorant_secundary">#293378</color>
+    <color name="gray_valorant">#464751</color>
+    <color name="gray_valorant_secundary">#707177</color>
+</resources>

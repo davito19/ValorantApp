@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_agents">
+
+    <fragment
+        android:id="@+id/navigation_agents"
+        android:name="com.davito.valorantapp.ui.agents.AgentsFragment"
+        android:label="@string/agents"
+        tools:layout="@layout/fragment_agents" >
+        <action
+            android:id="@+id/action_navigation_agents_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_my_main_agents"
+        android:name="com.davito.valorantapp.ui.mymainagents.MyMainAgentsFragment"
+        android:label="@string/my_main_agents"
+        tools:layout="@layout/fragment_my_main_agents" >
+        <action
+            android:id="@+id/action_navigation_my_main_agents_to_favoriteDetailsFragment"
+            app:destination="@id/favoriteDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.davito.valorantapp.ui.details.DetailsFragment"
+        android:label="@string/agent"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="agent"
+            app:argType="com.davito.valorantapp.server.model.Agent" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteDetailsFragment"
+        android:name="com.davito.valorantapp.ui.favoritedeails.FavoriteDetailsFragment"
+        android:label="@string/favorite_agents"
+        tools:layout="@layout/fragment_favorite_details" >
+        <argument
+            android:name="favoriteAgent"
+            app:argType="com.davito.valorantapp.local.model.FavoriteAgent" />
+    </fragment>
+
+</navigation>

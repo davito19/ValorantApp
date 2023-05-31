@@ -1,0 +1,6 @@
+
+4kotlin:S1128"Remove this redundant import.(§ùÆh
+—kotlin:S1192"Define a constant instead of duplicating this literal " must implement Parcelable or Serializable or must be an Enum." 4 times.(šÒõó
+@kotlin:S18745"#Deprecated code should not be used.(Ã²’Âøÿÿÿÿ
+okotlin:S1171"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(€ÜÕıÿÿÿÿ
+okotlin:S117E"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(€ÜÕıÿÿÿÿ

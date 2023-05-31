@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ValorantApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="agents">Agents</string>
+    <string name="my_main_agents">My main agents</string>
+    <string name="agents_image">agents image</string>
+    <string name="example_name_agents">example_name_agents</string>
+    <string name="example_develop_name">example_develop_name</string>
+    <string name="example_role">example_role</string>
+    <string name="example_description_agent">Example description agent</string>
+    <string name="agent">Agente</string>
+    <string name="favorite_agents">Favorite agents</string>
+</resources>
